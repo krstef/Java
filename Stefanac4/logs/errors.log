@@ -1,0 +1,20 @@
+2018-01-17 19:00:12,886 INFO [main] h.j.v.g.Glavna [Glavna.java:57] Aplikacija je pokrenuta!
+2018-01-17 19:00:19,049 INFO [main] h.j.v.g.Glavna [Glavna.java:333] Uneseni naziv drzave: Hrvatska
+2018-01-17 19:00:22,733 INFO [main] h.j.v.g.Glavna [Glavna.java:336] Unesena povrsina drzave: Hrvatska
+2018-01-17 20:42:30,694 INFO [main] h.j.v.g.Glavna [Glavna.java:59] Aplikacija je pokrenuta!
+2018-01-17 20:42:38,928 INFO [main] h.j.v.g.Glavna [Glavna.java:352] Uneseni naziv drzave: Hrvatska
+2018-01-17 20:42:40,962 INFO [main] h.j.v.g.Glavna [Glavna.java:355] Unesena povrsina drzave: Hrvatska
+2018-01-17 20:42:42,208 INFO [main] h.j.v.g.Glavna [Glavna.java:337] Uneseni naziv zupanije: a
+2018-01-17 20:42:46,138 INFO [main] h.j.v.g.Glavna [Glavna.java:320] Uneseni naziv mjesta broj 1: a
+2018-01-17 20:42:49,063 ERROR [main] h.j.v.g.Glavna [Glavna.java:377] Krivi tip podatka. Upisan je podatak: null
+java.lang.NumberFormatException: null
+	at java.base/java.math.BigDecimal.<init>(Unknown Source)
+	at java.base/java.math.BigDecimal.<init>(Unknown Source)
+	at java.base/java.math.BigDecimal.<init>(Unknown Source)
+	at hr.java.vjezbe.glavna.Glavna.bigDecimalInput(Glavna.java:372)
+	at hr.java.vjezbe.glavna.Glavna.unostTocke(Glavna.java:300)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:68)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	... 6 common frames omitted
+2018-01-17 20:43:01,446 INFO [main] h.j.v.g.Glavna [Glavna.java:301] Unesena tocka X: 1
+2018-01-17 20:43:03,768 INFO [main] h.j.v.g.Glavna [Glavna.java:304] Unesena tocka Y: 2

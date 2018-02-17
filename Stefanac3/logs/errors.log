@@ -1,0 +1,26 @@
+2018-01-17 21:58:12,426 INFO [main] h.j.v.g.Glavna [Glavna.java:57] Aplikacija je pokrenuta!
+2018-01-17 21:58:16,683 INFO [main] h.j.v.g.Glavna [Glavna.java:333] Uneseni naziv drzave: hrvatska
+2018-01-17 21:58:18,093 INFO [main] h.j.v.g.Glavna [Glavna.java:336] Unesena povrsina drzave: hrvatska
+2018-01-17 21:58:19,170 INFO [main] h.j.v.g.Glavna [Glavna.java:318] Uneseni naziv zupanije: s
+2018-01-17 21:58:21,213 INFO [main] h.j.v.g.Glavna [Glavna.java:303] Uneseni naziv mjesta broj 1: ss
+2018-01-17 21:58:22,591 INFO [main] h.j.v.g.Glavna [Glavna.java:284] Unesena tocka X: 1
+2018-01-17 21:58:23,072 INFO [main] h.j.v.g.Glavna [Glavna.java:287] Unesena tocka Y: 2
+2018-01-17 21:58:26,306 INFO [main] h.j.v.g.Glavna [Glavna.java:203] Podaci za senzor temperature:dsa, 13
+2018-01-17 21:58:27,766 INFO [main] h.j.v.g.Glavna [Glavna.java:207] Podaci za senzor vlage:21
+2018-01-17 21:58:31,816 INFO [main] h.j.v.g.Glavna [Glavna.java:214] Podaci za senzor padalina:dsad, 1
+2018-01-17 21:58:36,245 INFO [main] h.j.v.g.Glavna [Glavna.java:269] Uneseni naziv mjerne postaje broj 1: saa
+2018-01-17 23:56:54,939 INFO [main] h.j.v.g.Glavna [Glavna.java:57] Aplikacija je pokrenuta!
+2018-01-17 23:56:57,488 INFO [main] h.j.v.g.Glavna [Glavna.java:333] Uneseni naziv drzave: hr
+2018-01-17 23:57:00,777 INFO [main] h.j.v.g.Glavna [Glavna.java:336] Unesena povrsina drzave: hr
+2018-01-17 23:57:03,841 INFO [main] h.j.v.g.Glavna [Glavna.java:318] Uneseni naziv zupanije: sa
+2018-01-17 23:57:05,460 INFO [main] h.j.v.g.Glavna [Glavna.java:303] Uneseni naziv mjesta broj 1: dsa
+2018-01-17 23:57:11,291 ERROR [main] h.j.v.g.Glavna [Glavna.java:358] Krivi tip podatka. Upisan je podatak: null
+java.lang.NumberFormatException: Character s is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+	at java.base/java.math.BigDecimal.<init>(Unknown Source)
+	at java.base/java.math.BigDecimal.<init>(Unknown Source)
+	at java.base/java.math.BigDecimal.<init>(Unknown Source)
+	at hr.java.vjezbe.glavna.Glavna.bigDecimalInput(Glavna.java:353)
+	at hr.java.vjezbe.glavna.Glavna.unostTocke(Glavna.java:283)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:66)
+2018-01-17 23:57:15,141 INFO [main] h.j.v.g.Glavna [Glavna.java:284] Unesena tocka X: 1.32
+2018-01-17 23:57:26,387 INFO [main] h.j.v.g.Glavna [Glavna.java:287] Unesena tocka Y: 1.231

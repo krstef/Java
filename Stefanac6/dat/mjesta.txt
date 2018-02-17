@@ -1,0 +1,9 @@
+1
+Split
+GRAD
+2
+Maribor
+GRAD
+3
+Beograd
+SELO
